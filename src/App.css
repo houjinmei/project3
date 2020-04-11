@@ -1,0 +1,32 @@
+.App {
+  margin:0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.App footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 0.98rem;
+  border-top: 0.02rem solid #f1f1f1;
+  background: #fff;
+  font-size: .11rem;
+}
+.App footer a{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.App footer .iconfont{
+  font-size: 20px!important;
+}
+.App footer .selected{
+  color:rgb(242, 48, 48);
+}
+
+
